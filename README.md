@@ -49,3 +49,20 @@ if __name__ == "__main__":
     while True:
         print_status_table()
         time.sleep(60)  
+```
+## Sample Output
+
+```bash
+Subdomain Status Checker
+-----------------------------------
+| Subdomain             | Status |
+-----------------------------------
+| http://mail.google.com| UP     |
+| http://maps.google.com| UP     |
+-----------------------------------
+| http://mail.google.com| UP     |
+| http://maps.google.com| UP     |
+-----------------------------------
+| http://mail.google.com| UP     |
+| http://maps.google.com| UP     |
+-----------------------------------
